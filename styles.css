@@ -1562,22 +1562,23 @@ input:focus, textarea:focus {
 }
 .floating-logo .logo-name {
     font-family: 'Playfair Display', serif;
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     font-weight: 700;
     color: var(--primary);
     line-height: 1;
 }
 .floating-logo .logo-sub {
-    font-size: 0.45rem;
+    font-size: 0.5rem;
     letter-spacing: 2.5px;
     color: var(--text-muted);
     font-weight: 600;
 }
 .floating-logo svg {
-    width: 52px;
-    height: 52px;
+    width: 68px;
+    height: 68px;
     flex-shrink: 0;
 }
+
 
 /* ═══════════════════════════════════════
    GREEN ACCENT AREAS

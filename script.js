@@ -306,14 +306,21 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(el);
     });
 
-    // 7. Back to Top Button
+    // 7. Back to Top Button + Floating Logo
     const backToTopBtn = document.getElementById('backToTop');
+    const floatingLogo = document.getElementById('floatingLogo');
     
     window.addEventListener('scroll', () => {
         if (window.scrollY > 500) {
             backToTopBtn.classList.add('visible');
         } else {
             backToTopBtn.classList.remove('visible');
+        }
+        // Floating logo: show after scrolling past hero (~300px)
+        if (window.scrollY > 300) {
+            floatingLogo && floatingLogo.classList.add('visible');
+        } else {
+            floatingLogo && floatingLogo.classList.remove('visible');
         }
     });
 

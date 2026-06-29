@@ -1700,6 +1700,30 @@ input:focus, textarea:focus {
     border-color: var(--accent-green);
 }
 
+/* Contact Card link styles */
+.contact-card-link {
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.contact-card-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+    border-color: var(--primary) !important;
+}
+.contact-card-link .inline-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--primary);
+    transition: color 0.2s, transform 0.2s;
+}
+.contact-card-link:hover .inline-link {
+    color: var(--accent-green);
+    transform: translateX(3px);
+}
+
 /* Footer social buttons (smaller, icon-only on mobile) */
 .footer-social {
     display: flex;
@@ -1711,6 +1735,7 @@ input:focus, textarea:focus {
     padding: 0.55rem 0.9rem;
     font-size: 0.8rem;
 }
+
 
 @media (max-width: 768px) {
     .social-bar {

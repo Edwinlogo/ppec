@@ -316,8 +316,8 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             backToTopBtn.classList.remove('visible');
         }
-        // Floating logo: show after scrolling past hero (~300px)
-        if (window.scrollY > 300) {
+        // Floating logo: show exactly when navbar logo fades out (scroll > 50px)
+        if (window.scrollY > 50) {
             floatingLogo && floatingLogo.classList.add('visible');
         } else {
             floatingLogo && floatingLogo.classList.remove('visible');

@@ -311,9 +311,16 @@ img {
     line-height: 1;
 }
 
-.navbar:not(.scrolled) .logo-name {
-    color: #1B3A5C;
+.navbar.scrolled .nav-logo {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-10px);
 }
+
+.nav-logo {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
 
 [data-theme="dark"] .navbar:not(.scrolled) .logo-name {
     color: white;

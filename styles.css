@@ -1562,16 +1562,21 @@ input:focus, textarea:focus {
 }
 .floating-logo .logo-name {
     font-family: 'Playfair Display', serif;
-    font-size: 1.1rem;
+    font-size: 0.85rem;
     font-weight: 700;
     color: var(--primary);
     line-height: 1;
 }
 .floating-logo .logo-sub {
-    font-size: 0.55rem;
+    font-size: 0.45rem;
     letter-spacing: 2.5px;
     color: var(--text-muted);
     font-weight: 600;
+}
+.floating-logo svg {
+    width: 52px;
+    height: 52px;
+    flex-shrink: 0;
 }
 
 /* ═══════════════════════════════════════

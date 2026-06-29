@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StartCare PPEC - Prescribed Pediatric Extended Care. Providing compassionate, professional healthcare services for medically complex children in a safe, nurturing environment.">
+    <meta name="keywords" content="PPEC, pediatric care, prescribed pediatric extended care, skilled nursing, therapy, children healthcare, medically complex children">
+    <title>StartCare PPEC | Compassionate Pediatric Extended Care</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader" class="preloader">
+        <div class="preloader-inner">
+            <svg class="preloader-logo" viewBox="0 0 120 120" width="80" height="80">
+                <g transform="translate(60,60)">
+                    <g class="figure fig-1" transform="rotate(0)">
+                        <circle cx="0" cy="-32" r="4" fill="#1B3A5C"/>
+                        <path d="M-8,-28 L0,-18 L8,-28" stroke="#1B3A5C" stroke-width="3" fill="none" stroke-linecap="round"/>
+                        <path d="M-10,-18 L0,-8 L10,-18" stroke="#1B3A5C" stroke-width="3" fill="none" stroke-linecap="round"/>
+                    </g>
+                    <g class="figure fig-2" transform="rotate(60)">
+                        <circle cx="0" cy="-32" r="4" fill="#4A7CC9"/>
+                        <path d="M-8,-28 L0,-18 L8,-28" stroke="#4A7CC9" stroke-width="3" fill="none" stroke-linecap="round"/>
+                        <path d="M-10,-18 L0,-8 L10,-18" stroke="#4A7CC9" stroke-width="3" fill="none" stroke-linecap="round"/>
+                    </g>
+                    <g class="figure fig-3" transform="rotate(120)">
+                        <circle cx="0" cy="-32" r="4" fill="#8BB0E0"/>
+                        <path d="M-8,-28 L0,-18 L8,-28" stroke="#8BB0E0" stroke-width="3" fill="none" stroke-linecap="round"/>
+                        <path d="M-10,-18 L0,-8 L10,-18" stroke="#8BB0E0" stroke-width="3" fill="none" stroke-linecap="round"/>
+                    </g>
+                    <g class="figure fig-4" transform="rotate(180)">
+                        <circle cx="0" cy="-32" r="4" fill="#8BAF7E"/>
+                        <path d="M-8,-28 L0,-18 L8,-28" stroke="#8BAF7E" stroke-width="3" fill="none" stroke-linecap="round"/>
+                        <path d="M-10,-18 L0,-8 L10,-18" stroke="#8BAF7E" stroke-width="3" fill="none" stroke-linecap="round"/>
+                    </g>
+                    <g class="figure fig-5" transform="rotate(240)">
+                        <circle cx="0" cy="-32" r="4" fill="#E86B4A"/>
+                        <path d="M-8,-28 L0,-18 L8,-28" stroke="#E86B4A" stroke-width="3" fill="none" stroke-linecap="round"/>
+                        <path d="M-10,-18 L0,-8 L10,-18" stroke="#E86B4A" stroke-width="3" fill="none" stroke-linecap="round"/>
+                    </g>
+                    <g class="figure fig-6" transform="rotate(300)">
+                        <circle cx="0" cy="-32" r="4" fill="#C5D6ED"/>
+                        <path d="M-8,-28 L0,-18 L8,-28" stroke="#C5D6ED" stroke-width="3" fill="none" stroke-linecap="round"/>
+                        <path d="M-10,-18 L0,-8 L10,-18" stroke="#C5D6ED" stroke-width="3" fill="none" stroke-linecap="round"/>
+                    </g>
+                </g>
+            </svg>
+            <div class="preloader-text">StartCare PPEC</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo" aria-label="StartCare PPEC Home">
+                <svg class="logo-svg" viewBox="0 0 120 120" width="44" height="44">
+                    <g transform="translate(60,60)">
+                        <g transform="rotate(0)"><circle cx="0" cy="-32" r="4" fill="#1B3A5C"/><path d="M-8,-28 L0,-18 L8,-28" stroke="#1B3A5C" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M-10,-18 L0,-8 L10,-18" stroke="#1B3A5C" stroke-width="3" fill="none" stroke-linecap="round"/></g>
+                        <g transform="rotate(60)"><circle cx="0" cy="-32" r="4" fill="#4A7CC9"/><path d="M-8,-28 L0,-18 L8,-28" stroke="#4A7CC9" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M-10,-18 L0,-8 L10,-18" stroke="#4A7CC9" stroke-width="3" fill="none" stroke-linecap="round"/></g>
+                        <g transform="rotate(120)"><circle cx="0" cy="-32" r="4" fill="#8BB0E0"/><path d="M-8,-28 L0,-18 L8,-28" stroke="#8BB0E0" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M-10,-18 L0,-8 L10,-18" stroke="#8BB0E0" stroke-width="3" fill="none" stroke-linecap="round"/></g>
+                        <g transform="rotate(180)"><circle cx="0" cy="-32" r="4" fill="#8BAF7E"/><path d="M-8,-28 L0,-18 L8,-28" stroke="#8BAF7E" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M-10,-18 L0,-8 L10,-18" stroke="#8BAF7E" stroke-width="3" fill="none" stroke-linecap="round"/></g>
+                        <g transform="rotate(240)"><circle cx="0" cy="-32" r="4" fill="#E86B4A"/><path d="M-8,-28 L0,-18 L8,-28" stroke="#E86B4A" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M-10,-18 L0,-8 L10,-18" stroke="#E86B4A" stroke-width="3" fill="none" stroke-linecap="round"/></g>
+                        <g transform="rotate(300)"><circle cx="0" cy="-32" r="4" fill="#C5D6ED"/><path d="M-8,-28 L0,-18 L8,-28" stroke="#C5D6ED" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M-10,-18 L0,-8 L10,-18" stroke="#C5D6ED" stroke-width="3" fill="none" stroke-linecap="round"/></g>
+                    </g>
+                </svg>
+                <div class="logo-text">
+                    <span class="logo-name">StartCare</span>
+                    <span class="logo-sub">P P E C</span>
+                </div>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" data-i18n="nav.home">Home</a></li>
+                <li><a href="#about" data-i18n="nav.about">About</a></li>
+                <li><a href="#services" data-i18n="nav.services">Services</a></li>
+                <li><a href="#why-us" data-i18n="nav.whyUs">Why Us</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="langToggle" class="btn-toggle lang-toggle" aria-label="Toggle language">
+                    <span class="lang-icon">🌐</span>
+                    <span class="lang-label" id="langLabel">ES</span>
+                </button>
+                <button id="themeToggle" class="btn-toggle theme-toggle" aria-label="Toggle dark mode">
+                    <svg class="theme-icon sun" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                    </svg>
+                    <svg class="theme-icon moon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                    </svg>
+                </button>
+                <button id="menuToggle" class="btn-toggle menu-toggle" aria-label="Toggle menu">
+                    <span class="hamburger">
+                        <span></span><span></span><span></span>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="hero-particles" id="heroParticles"></div>
+            <div class="hero-gradient"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-badge" data-i18n="hero.badge">Prescribed Pediatric Extended Care</div>
+                <h1 class="hero-title">
+                    <span class="hero-title-line" data-i18n="hero.title1">Compassionate Care</span>
+                    <span class="hero-title-line hero-title-accent" data-i18n="hero.title2">For Every Child</span>
+                </h1>
+                <p class="hero-description" data-i18n="hero.description">At StartCare PPEC, we provide a safe, nurturing environment with skilled nursing and therapeutic services for medically complex children — so they can thrive while their families find peace of mind.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary" data-i18n="hero.cta1">Our Services</a>
+                    <a href="#contact" class="btn btn-outline" data-i18n="hero.cta2">Contact Us</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-count="24">0</span><span class="stat-suffix">/7</span>
+                        <span class="stat-label" data-i18n="hero.stat1">Skilled Nursing</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="6">0</span><span class="stat-suffix">+</span>
+                        <span class="stat-label" data-i18n="hero.stat2">Therapy Services</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="100">0</span><span class="stat-suffix">%</span>
+                        <span class="stat-label" data-i18n="hero.stat3">Licensed & Certified</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="hero-image-container">
+                    <img src="assets/images/hero.png" alt="StartCare PPEC - Compassionate pediatric care" class="hero-image" loading="eager">
+                    <div class="hero-image-blob"></div>
+                </div>
+                <div class="hero-floating-card card-1">
+                    <div class="floating-icon">❤️</div>
+                    <div class="floating-text" data-i18n="hero.float1">Loving Care</div>
+                </div>
+                <div class="hero-floating-card card-2">
+                    <div class="floating-icon">🏥</div>
+                    <div class="floating-text" data-i18n="hero.float2">Licensed Facility</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-col reveal-left">
+                    <div class="about-image-wrapper">
+                        <img src="assets/images/about.jpg" alt="StartCare PPEC facility" class="about-image" loading="lazy">
+                        <div class="about-image-accent"></div>
+                        <div class="about-experience-badge">
+                            <span class="exp-icon">
+                                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            </span>
+                            <span class="exp-text" data-i18n="about.badge">Trusted & Licensed</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text-col reveal-right">
+                    <div class="section-label" data-i18n="about.label">About Us</div>
+                    <h2 class="section-title" data-i18n="about.title">A Safe Haven for Medically Complex Children</h2>
+                    <p class="about-lead" data-i18n="about.lead">StartCare PPEC (Prescribed Pediatric Extended Care) is a licensed healthcare facility dedicated to providing comprehensive medical and developmental services for children with complex medical needs.</p>
+                    <p class="about-text" data-i18n="about.text1">Our center offers a safe, nurturing, and stimulating environment where children receive skilled nursing care, therapeutic services, and age-appropriate developmental activities — all under the supervision of qualified healthcare professionals.</p>
+                    <p class="about-text" data-i18n="about.text2">We believe every child deserves the opportunity to grow, learn, and thrive. Our multidisciplinary team works closely with families and physicians to create individualized care plans that address each child's unique medical, developmental, and emotional needs.</p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <span data-i18n="about.feature1">State-Licensed Facility</span>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <span data-i18n="about.feature2">Qualified Medical Staff</span>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <span data-i18n="about.feature3">Individualized Care Plans</span>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <span data-i18n="about.feature4">Family-Centered Approach</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <div class="section-label" data-i18n="services.label">What We Offer</div>
+                <h2 class="section-title" data-i18n="services.title">Comprehensive Care Services</h2>
+                <p class="section-subtitle" data-i18n="services.subtitle">Our multidisciplinary team provides a wide range of specialized pediatric services tailored to each child's unique needs.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal-up" data-delay="0">
+                    <div class="service-image-wrap">
+                        <img src="assets/images/service-nursing.png" alt="Skilled Nursing" loading="lazy">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                        </div>
+                        <h3 class="service-title" data-i18n="services.nursing.title">Skilled Nursing</h3>
+                        <p class="service-desc" data-i18n="services.nursing.desc">Round-the-clock skilled nursing care provided by licensed registered nurses and licensed practical nurses, including medication administration, vital signs monitoring, and complex medical procedures.</p>
+                    </div>
+                </div>
+                <div class="service-card reveal-up" data-delay="100">
+                    <div class="service-image-wrap">
+                        <img src="assets/images/service-therapy.png" alt="Physical Therapy" loading="lazy">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="5" r="3"/><path d="M12 8v4m-4 4l4-4 4 4m-8 0v4m8-4v4"/></svg>
+                        </div>
+                        <h3 class="service-title" data-i18n="services.physical.title">Physical Therapy</h3>
+                        <p class="service-desc" data-i18n="services.physical.desc">Individualized physical therapy programs designed to improve mobility, strength, balance, and motor function, helping children reach their maximum physical potential.</p>
+                    </div>
+                </div>
+                <div class="service-card reveal-up" data-delay="200">
+                    <div class="service-image-wrap">
+                        <img src="assets/images/service-speech.png" alt="Speech Therapy" loading="lazy">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                        </div>
+                        <h3 class="service-title" data-i18n="services.speech.title">Speech Therapy</h3>
+                        <p class="service-desc" data-i18n="services.speech.desc">Comprehensive speech-language pathology services to enhance communication, swallowing, and feeding skills through evidence-based therapeutic techniques.</p>
+                    </div>
+                </div>
+                <div class="service-card reveal-up" data-delay="300">
+                    <div class="service-image-wrap">
+                        <img src="assets/images/service-respiratory.png" alt="Respiratory Therapy" loading="lazy">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M8 12h8m-4-4v8"/></svg>
+                        </div>
+                        <h3 class="service-title" data-i18n="services.respiratory.title">Respiratory Therapy</h3>
+                        <p class="service-desc" data-i18n="services.respiratory.desc">Specialized respiratory care including airway management, ventilator support, nebulizer treatments, and continuous respiratory monitoring by certified therapists.</p>
+                    </div>
+                </div>
+                <div class="service-card reveal-up" data-delay="400">
+                    <div class="service-image-wrap">
+                        <img src="assets/images/service-developmental.png" alt="Developmental Activities" loading="lazy">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                        </div>
+                        <h3 class="service-title" data-i18n="services.developmental.title">Developmental Activities</h3>
+                        <p class="service-desc" data-i18n="services.developmental.desc">Age-appropriate educational and developmental programs designed to stimulate cognitive growth, social interaction, and sensory development in a fun, engaging environment.</p>
+                    </div>
+                </div>
+                <div class="service-card reveal-up" data-delay="500">
+                    <div class="service-image-wrap service-gradient-bg">
+                        <div class="service-ot-icon">
+                            <svg viewBox="0 0 24 24" width="60" height="60" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+                        </div>
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                        </div>
+                        <h3 class="service-title" data-i18n="services.occupational.title">Occupational Therapy</h3>
+                        <p class="service-desc" data-i18n="services.occupational.desc">Targeted occupational therapy to help children develop essential daily living skills, fine motor coordination, and sensory processing abilities for greater independence.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="why-us section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <div class="section-label" data-i18n="whyUs.label">Why StartCare</div>
+                <h2 class="section-title" data-i18n="whyUs.title">The StartCare Difference</h2>
+                <p class="section-subtitle" data-i18n="whyUs.subtitle">We go beyond standard care to create an experience that nurtures every aspect of your child's wellbeing.</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card reveal-up" data-delay="0">
+                    <div class="why-icon-wrap">
+                        <div class="why-icon">
+                            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        </div>
+                        <div class="why-icon-bg"></div>
+                    </div>
+                    <h3 data-i18n="whyUs.card1.title">Safe & Secure Environment</h3>
+                    <p data-i18n="whyUs.card1.desc">Our state-licensed facility maintains the highest safety standards with secure access, emergency protocols, and a clean, child-friendly environment.</p>
+                </div>
+                <div class="why-card reveal-up" data-delay="100">
+                    <div class="why-icon-wrap">
+                        <div class="why-icon">
+                            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        </div>
+                        <div class="why-icon-bg"></div>
+                    </div>
+                    <h3 data-i18n="whyUs.card2.title">Expert Medical Team</h3>
+                    <p data-i18n="whyUs.card2.desc">Our multidisciplinary team includes registered nurses, therapists, and healthcare specialists with extensive pediatric experience.</p>
+                </div>
+                <div class="why-card reveal-up" data-delay="200">
+                    <div class="why-icon-wrap">
+                        <div class="why-icon">
+                            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                        </div>
+                        <div class="why-icon-bg"></div>
+                    </div>
+                    <h3 data-i18n="whyUs.card3.title">Family-Centered Care</h3>
+                    <p data-i18n="whyUs.card3.desc">We partner with families every step of the way, providing education, support, and open communication to ensure the best outcomes for your child.</p>
+                </div>
+                <div class="why-card reveal-up" data-delay="300">
+                    <div class="why-icon-wrap">
+                        <div class="why-icon">
+                            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        </div>
+                        <div class="why-icon-bg"></div>
+                    </div>
+                    <h3 data-i18n="whyUs.card4.title">Personalized Care Plans</h3>
+                    <p data-i18n="whyUs.card4.desc">Every child receives a customized care plan developed in collaboration with their physicians, therapists, and family to address their specific needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content reveal-up">
+                <h2 data-i18n="cta.title">Ready to Give Your Child the Best Care?</h2>
+                <p data-i18n="cta.text">Contact us today to learn more about our services and how StartCare PPEC can make a difference in your child's life.</p>
+                <a href="#contact" class="btn btn-primary btn-lg" data-i18n="cta.button">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <div class="section-label" data-i18n="contact.label">Get in Touch</div>
+                <h2 class="section-title" data-i18n="contact.title">Contact Us</h2>
+                <p class="section-subtitle" data-i18n="contact.subtitle">We'd love to hear from you. Reach out to learn more about how we can help your child.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info reveal-left">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <div class="contact-detail">
+                            <h4 data-i18n="contact.address.label">Address</h4>
+                            <p>StartCare PPEC</p>
+                            <p>Florida, USA</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        </div>
+                        <div class="contact-detail">
+                            <h4 data-i18n="contact.phone.label">Phone</h4>
+                            <p><a href="tel:+1234567890" data-i18n="contact.phone.value">Call Us</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        </div>
+                        <div class="contact-detail">
+                            <h4 data-i18n="contact.email.label">Email</h4>
+                            <p><a href="mailto:info@startcareppec.com">info@startcareppec.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        </div>
+                        <div class="contact-detail">
+                            <h4 data-i18n="contact.hours.label">Hours</h4>
+                            <p data-i18n="contact.hours.value">Monday - Friday: 7:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper reveal-right">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name" data-i18n="contact.form.name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email" data-i18n="contact.form.email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" data-i18n="contact.form.phone">Phone</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-i18n="contact.form.message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" data-i18n="contact.form.submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo" aria-label="StartCare PPEC">
+                        <svg class="logo-svg" viewBox="0 0 120 120" width="40" height="40">
+                            <g transform="translate(60,60)">
+                                <g transform="rotate(0)"><circle cx="0" cy="-32" r="4" fill="#1B3A5C"/><path d="M-8,-28 L0,-18 L8,-28" stroke="#1B3A5C" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M-10,-18 L0,-8 L10,-18" stroke="#1B3A5C" stroke-width="3" fill="none" stroke-linecap="round"/></g>
+                                <g transform="rotate(60)"><circle cx="0" cy="-32" r="4" fill="#4A7CC9"/><path d="M-8,-28 L0,-18 L8,-28" stroke="#4A7CC9" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M-10,-18 L0,-8 L10,-18" stroke="#4A7CC9" stroke-width="3" fill="none" stroke-linecap="round"/></g>
+                                <g transform="rotate(120)"><circle cx="0" cy="-32" r="4" fill="#8BB0E0"/><path d="M-8,-28 L0,-18 L8,-28" stroke="#8BB0E0" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M-10,-18 L0,-8 L10,-18" stroke="#8BB0E0" stroke-width="3" fill="none" stroke-linecap="round"/></g>
+                                <g transform="rotate(180)"><circle cx="0" cy="-32" r="4" fill="#8BAF7E"/><path d="M-8,-28 L0,-18 L8,-28" stroke="#8BAF7E" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M-10,-18 L0,-8 L10,-18" stroke="#8BAF7E" stroke-width="3" fill="none" stroke-linecap="round"/></g>
+                                <g transform="rotate(240)"><circle cx="0" cy="-32" r="4" fill="#E86B4A"/><path d="M-8,-28 L0,-18 L8,-28" stroke="#E86B4A" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M-10,-18 L0,-8 L10,-18" stroke="#E86B4A" stroke-width="3" fill="none" stroke-linecap="round"/></g>
+                                <g transform="rotate(300)"><circle cx="0" cy="-32" r="4" fill="#C5D6ED"/><path d="M-8,-28 L0,-18 L8,-28" stroke="#C5D6ED" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M-10,-18 L0,-8 L10,-18" stroke="#C5D6ED" stroke-width="3" fill="none" stroke-linecap="round"/></g>
+                            </g>
+                        </svg>
+                        <div class="logo-text">
+                            <span class="logo-name">StartCare</span>
+                            <span class="logo-sub">P P E C</span>
+                        </div>
+                    </a>
+                    <p class="footer-desc" data-i18n="footer.desc">Providing compassionate, skilled healthcare for medically complex children in a safe, nurturing environment.</p>
+                </div>
+                <div class="footer-links-col">
+                    <h4 data-i18n="footer.quickLinks">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home" data-i18n="nav.home">Home</a></li>
+                        <li><a href="#about" data-i18n="nav.about">About</a></li>
+                        <li><a href="#services" data-i18n="nav.services">Services</a></li>
+                        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-col">
+                    <h4 data-i18n="footer.services">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services" data-i18n="services.nursing.title">Skilled Nursing</a></li>
+                        <li><a href="#services" data-i18n="services.physical.title">Physical Therapy</a></li>
+                        <li><a href="#services" data-i18n="services.speech.title">Speech Therapy</a></li>
+                        <li><a href="#services" data-i18n="services.respiratory.title">Respiratory Therapy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact-col">
+                    <h4 data-i18n="contact.label">Get in Touch</h4>
+                    <div class="footer-contact-item">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        <a href="mailto:info@startcareppec.com">info@startcareppec.com</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        <span>Florida, USA</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> StartCare PPEC. <span data-i18n="footer.rights">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

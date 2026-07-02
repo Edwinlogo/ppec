@@ -64,6 +64,7 @@ const translations = {
         "contact.instagram.label": "Instagram",
         "contact.instagram.value": "Follow us on Instagram",
         "contact.email.label": "Email",
+        "contact.email.value": "Send Email ➔",
         "contact.hours.label": "Hours",
         "contact.hours.value": "Monday - Friday: 7:00 AM - 6:00 PM",
         "contact.form.name": "Full Name",
